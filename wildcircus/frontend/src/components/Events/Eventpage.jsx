@@ -54,10 +54,12 @@ function Eventpage() {
         <Image src={Water} className={aqua} alt="The Mermaids' Band" />
 
         <article>
-          Our circus is realy a new vision of the street arts mixed with the
-          original circus world... more we believe in respect for wildlife, so
-          the animals that play with us are fake!!! Also we love music and
-          that's why we often have guests as singer or Djs.
+          Our artists are real performers, high level gymnasts, perfomrers from
+          the street...
+        </article>
+        <article>
+          We realy believe in respect for wildlife, so the animals that play
+          with us are fake!!!
         </article>
         <Link to="./Events">
           <h2>Let us present the artists...</h2>

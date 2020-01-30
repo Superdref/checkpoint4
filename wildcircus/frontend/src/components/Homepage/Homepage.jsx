@@ -59,9 +59,7 @@ function Homepage() {
 
         <article>
           Our circus is realy a new vision of the street arts mixed with the
-          original circus world... more we believe in respect for wildlife, so
-          the animals that play with us are fake!!! Also we love music and
-          that's why we often have guests as singer or Djs.
+          original circus world...
         </article>
         <Link to="./Events">
           <h2>Let's see our shows...</h2>
