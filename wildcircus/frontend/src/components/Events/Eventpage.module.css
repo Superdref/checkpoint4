@@ -33,23 +33,21 @@ h2 {
   margin-top: 70px;
   box-shadow: 0px 0px 100px silver;
 }
-article {
+h3 {
   text-align: center;
   color: #b3b300;
   margin: 20px;
 }
 
-.buffon {
+.fool {
   display: flex;
   flex-direction: row;
-  align-content: stretch;
   margin-left: auto;
   margin-right: auto;
   max-width: 30%;
-  height: auto;
 }
 
-.oldbuffon {
+.fun {
   display: flex;
   flex-direction: row;
   align-content: stretch;
@@ -59,8 +57,8 @@ article {
   height: auto;
 }
 
-.juggler,
-.statue {
+.speed,
+.aqua {
   display: flex;
   flex-direction: row;
   margin-left: auto;
