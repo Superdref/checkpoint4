@@ -61,7 +61,7 @@ function Eventpage() {
           We realy believe in respect for wildlife, so the animals that play
           with us are fake!!!
         </article>
-        <Link to="./Events">
+        <Link to="./Gallery">
           <h2>Let us present the artists...</h2>
         </Link>
         <footer></footer>
