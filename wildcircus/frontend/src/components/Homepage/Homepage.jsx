@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Image, Menu } from "semantic-ui-react";
 import Logo from "../../assets/logo wc.png";
+import NewCircus from "../../assets/new-circus-loremipsum.jpg";
 import NewBuffon from "../../assets/modern-buffon.jpg";
 import Buffon from "../../assets/saltimbanque.jpg";
 import Juggler from "../../assets/street-juggler.jpg";
@@ -12,6 +13,7 @@ const {
   logowildcircus,
   menu,
   section,
+  circus,
   buffon,
   oldbuffon,
   juggler,
@@ -52,8 +54,9 @@ function Homepage() {
         <Image src={Logo} className={logowildcircus} alt="Logo Wild Circus" />
         <h2>Art is everywhere...</h2>
         <article>The new buffons are in the street...</article>
-        <Image src={NewBuffon} className={buffon} alt="One-man band" />
+        <Image src={NewCircus} className={circus} alt="The original Buffon" />
         <Image src={Buffon} className={oldbuffon} alt="The original Buffon" />
+        <Image src={NewBuffon} className={buffon} alt="One-man band" />
         <Image src={Juggler} className={juggler} alt="Street Juggler" />
         <Image src={Statue} className={statue} alt="Street Statue" />
 
