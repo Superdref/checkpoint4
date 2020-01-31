@@ -22,28 +22,28 @@ function Homepage() {
   return (
     <>
       <div>
-        <navbar>
-          <Menu.Item className={menu}>
+        <navbar className={menu}>
+          <Menu.Item>
             <Link to="./" className={section}>
               About Us
             </Link>
           </Menu.Item>
-          <Menu.Item className={menu}>
+          <Menu.Item>
             <Link to="./Events" className={section}>
               Events
             </Link>
           </Menu.Item>
-          <Menu.Item className={menu}>
+          <Menu.Item>
             <Link to="./Gallery" className={section}>
               Gallery
             </Link>
           </Menu.Item>
-          <Menu.Item className={menu}>
+          <Menu.Item>
             <Link to="./Booking" className={section}>
               Booking
             </Link>
           </Menu.Item>
-          <Menu.Item className={menu}>
+          <Menu.Item>
             <Link to="./" className={section}>
               Contact Us
             </Link>

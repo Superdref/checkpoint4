@@ -4,11 +4,10 @@ body {
 }
 
 .menu {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
-  align-items: stretch;
-  box-shadow: 0px 0px 100px #b30000;
-  background-color: rgba(179, 0, 0, 0.5) #b30000;
+  align-content: space-between;
+  box-shadow: 0px 0px 10px 0px #b30000 black;
 }
 
 .section {
@@ -19,9 +18,10 @@ body {
 
 .logowildcircus {
   display: block;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
 }
 
@@ -39,7 +39,8 @@ article {
   margin: 20px;
 }
 
-.guestartist {
+.guestartist,
+.guestdj {
   display: flex;
   flex-direction: row;
   align-content: stretch;
