@@ -1,86 +1,8 @@
-@media all and (max-width: 480px) {
-  #logo {
-    float: none;
-  }
-  #menu {
-    float: none;
-  }
-}
-
-body {
-  background-color: black;
-  font-family: "Amatic SC", cursive;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-  align-content: stretch;
-  box-shadow: 0px 0px 10px 0px #b30000 black;
-}
-
-.section {
-  color: antiquewhite;
-  font-size: xx-large;
-  margin-bottom: 30px;
-}
-
-.logowildcircus {
+.tarot {
   display: block;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 40%;
-  height: auto;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
-  color: #b30000;
-  padding: 10px;
-  margin-top: 70px;
-  box-shadow: 0px 0px 100px silver;
-}
-article {
-  text-align: center;
-  color: #b3b300;
-  margin: 20px;
-}
-
-.buffon {
-  display: flex;
-  flex-direction: row;
-  align-content: stretch;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 30%;
-  height: auto;
-}
-
-.oldbuffon,
-.circus {
-  display: flex;
-  flex-direction: row;
-  align-content: stretch;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 40%;
-  height: auto;
-}
-
-.juggler,
-.statue {
-  display: flex;
-  flex-direction: row;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
   height: auto;
-}
-
-p {
-  text-align: center;
-  color: #b3b300;
-  margin: 20px;
 }

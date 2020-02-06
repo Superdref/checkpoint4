@@ -13,24 +13,24 @@ body {
 }
 
 .menu {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  align-content: space-between;
+  align-content: stretch;
   box-shadow: 0px 0px 10px 0px #b30000 black;
 }
 
 .section {
+  display: flex;
+  margin-top: 30px;
   color: antiquewhite;
   font-size: xx-large;
   margin-bottom: 30px;
 }
 
 .logowildcircus {
-  display: block;
+  display: flex;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 40%;
+  max-width: 10%;
   height: auto;
 }
 
@@ -42,29 +42,13 @@ h2 {
   margin-top: 70px;
   box-shadow: 0px 0px 100px silver;
 }
-
-.gallery {
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px;
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
-}
-
-h3 {
+article {
   text-align: center;
   color: #b3b300;
   margin: 20px;
 }
 
-.fool {
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 30%;
-}
-
-.fun {
+.buffon {
   display: flex;
   flex-direction: row;
   align-content: stretch;
@@ -74,19 +58,29 @@ h3 {
   height: auto;
 }
 
-.speed,
-.aqua {
+.oldbuffon,
+.circus {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  height: auto;
+}
+
+.juggler,
+.statue {
   display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  max-width: 30%;
+  max-width: 50%;
   height: auto;
 }
 
-article {
+p {
   text-align: center;
   color: #b3b300;
-  font-size: xx-large;
   margin: 20px;
 }
